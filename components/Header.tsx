@@ -3,6 +3,7 @@
 import { MagnifyingGlassIcon } from "@heroicons/react/24/solid"
 import Image from "next/image"
 import Link from "next/link"
+import Avatar from "react-avatar"
 import SearchButton from "./SearchButton"
 import {
     SearchSelect,
@@ -78,6 +79,10 @@ function Header() {
                             </SearchSelect>
                 </div>
             </form>
+        </div>
+
+        <div className="hidden lg:flex flex-1 justify-end">
+            <Avatar name="Diogo Ramos" round size="50" />
         </div>
     </header>
   )
