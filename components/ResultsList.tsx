@@ -18,6 +18,7 @@ function ResultsList({ results, term }: Props) {
                                 <div className="flex flex-col">
                                     {filter.values.map((value) => (
                                         <Link
+                                            key={i}
                                             prefetch={false}
                                             href={`https://www.google.com${value.url}`}
                                         >
@@ -45,7 +46,7 @@ function ResultsList({ results, term }: Props) {
                             </div>
 
                             <h3 className="font-extralight">
-                                Showing results for "{decodeURIComponent(term)}"
+                                Showing results for - {decodeURIComponent(term)}
                             </h3>
                         </div>
 

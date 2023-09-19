@@ -1,59 +1,60 @@
 const searches = [
   {
     id: 1,
-    term: "Monitors over $500",
-    url: "/search/monitors?sort_by=r&min_price=500",
+    term: "4K TVs over $1000",
+    url: "/search/4KTVs?sort_by=r&min_price=1000",
     color: "bg-blue-500",
   },
   {
     id: 2,
-    term: "Macbook Pro",
-    url: "/search/macbook",
+    term: "Surface Laptop",
+    url: "/search/surface-laptop",
     color: "bg-yellow-500",
   },
   {
     id: 3,
-    term: "Airpods Pro",
-    url: "/search/airpods",
+    term: "Bose Headphones",
+    url: "/search/bose-headphones",
     color: "bg-green-500",
   },
   {
     id: 4,
-    term: "Tablets under $300",
-    url: "/search/tablets?sort_by=r&max_price=300",
+    term: "Smartwatches under $200",
+    url: "/search/smartwatches?sort_by=r&max_price=200",
     color: "bg-purple-500",
   },
   {
-    id: 1,
-    term: "Paintings over $750",
-    url: "/search/painting?sort_by=r&min_price=750",
+    id: 5,
+    term: "Sculptures over $1000",
+    url: "/search/sculptures?sort_by=r&min_price=1000",
     color: "bg-slate-500",
   },
   {
-    id: 2,
-    term: "Laptops",
-    url: "/search/laptops",
+    id: 6,
+    term: "Gaming Laptops",
+    url: "/search/gaming-laptops",
     color: "bg-violet-500",
   },
   {
-    id: 3,
-    term: "Yeezys",
-    url: "/search/Yeezy",
+    id: 7,
+    term: "Nike Sneakers",
+    url: "/search/nike-sneakers",
     color: "bg-orange-500",
   },
   {
-    id: 4,
-    term: "Adidas Trainers",
-    url: "/search/adidas trainers",
+    id: 8,
+    term: "Puma Running Shoes",
+    url: "/search/puma-running-shoes",
     color: "bg-cyan-500",
   },
   {
-    id: 5,
-    term: "Robots under $500",
-    url: "/search/robots?sort_by=r&max_price=500",
+    id: 9,
+    term: "Drones under $300",
+    url: "/search/drones?sort_by=r&max_price=300",
     color: "bg-yellow-500",
   },
 ];
+
 
 export default function Home() {
   return (
