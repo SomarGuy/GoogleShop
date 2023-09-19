@@ -1,3 +1,5 @@
+import { redirect } from "next/navigation";
+
 type Props = {
     searchParams: any;
     params: {
@@ -5,7 +7,10 @@ type Props = {
     }
 }
 
-function SearchPage() {
+function SearchPage({searchParams, params: { term } }: Props) {
+    if (!term) {
+        redirect('/')
+    }
   return (
     <div>
         {/* ResultsList */}
